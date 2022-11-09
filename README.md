@@ -1,29 +1,21 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+* project to demonstrate using LQR to choose PID gains
+* TremaineConsultingGroup.com / Brian Tremaine
 
-### What is this repository for? ###
+### What's here ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* MATLAB file init.m to initialize parameters & caldulate LQR gains.
+* Simulink file: smc_plant.slx to simulate plant with PID feedback
+* version 1.0.0
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+* run init.m
+* run Simulink smc_plant.slx
+* to add model error of making mass M 3x larger after design
+* enter d=3 at Matlab console (DO NOT RUN init.m) then rerun smc_plant.slx
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Brian at brian@TremaineConsultingGroup.com
